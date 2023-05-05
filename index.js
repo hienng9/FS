@@ -4,7 +4,7 @@ const app = express()
 const morgan = require('morgan')
 app.use(express.json())
 
-
+app.use(express.static('build'))
 
 morgan.token('content', function(req, res) {
     return JSON.stringify(req.body)

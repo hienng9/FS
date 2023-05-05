@@ -1,0 +1,33 @@
+{
+  "name": "phonebook",
+  "version": "0.0.1",
+  "description": "Phonebook application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hienng9/FSPart3.git"
+  },
+  "keywords": [
+    "phonebook",
+    "part3",
+    "exercises"
+  ],
+  "author": "Hien Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hienng9/FSPart3/issues"
+  },
+  "homepage": "https://github.com/hienng9/FSPart3#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -9,9 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf build && cd /home/hiennguyen/Documents/FS2/part2/phonebook && npm run build && cp -r build /home/hiennguyen/Documents/Part3/FSPart3",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
-    
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hienng9/FSPart3.git"
@@ -28,7 +26,9 @@
   },
   "homepage": "https://github.com/hienng9/FSPart3#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongoose": "^7.1.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {

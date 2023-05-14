@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/persons/645f6daa59d5179e89d6d25d
+content-type: application/json
+
+
+{
+  "name": "Arto Vihavainen",
+  "number": "045-1232457",
+  "id": "645f6daa59d5179e89d6d25d"
+}
